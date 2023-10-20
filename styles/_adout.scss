@@ -1,0 +1,686 @@
+.header-about {
+    width: 100%;
+
+    z-index: 1;
+}
+
+.header-about__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 8.3% 0;
+
+
+}
+
+.header-about__nav__top {
+    display: flex;
+    align-items: center;
+}
+
+.header-about__nav__top__box {
+    display: flex;
+
+    .header-about__nav__top__box__button {
+        display: block;
+        font-family: 'Montserrat-Bold';
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 1px;
+        padding: 7px;
+        color: #B3B3BA;
+        text-decoration: none;
+        border-radius: 8px;
+
+    }
+
+    .header-about__nav__top__box__button:active {
+        background: #F0145A;
+    }
+}
+
+.header-about__nav__top__dot {
+    height: 6px;
+    width: 6px;
+    margin: 6px;
+    border-radius: 50%;
+    background: #B3B3BA
+}
+
+.header-about__nav__top__text {
+    line-height: 20px;
+    color: #B3B3BA;
+
+}
+
+.header-about__nav__top__tel {
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B3BA;
+    text-decoration: none;
+    transition: 0.5s ease;
+
+    &:hover {
+        color: #F0145A;
+    }
+}
+
+.header-about__nav__top__log {
+
+    &:hover  path {
+        fill: #F0145A;
+        transition: 0.3s ease;
+    }
+}
+
+.header-about__nav__bottom {
+    padding-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+
+    .header-about__nav__bottom__button {
+
+        font-family: 'Montserrat-Bold';
+        font-size: 16px;
+        line-height: 20px;
+        color: #24A3FF;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        padding-bottom: 3px;
+        margin: 0 7.5px;
+
+        &.header-about_red-button{
+            color: #F0145A;
+            border-bottom: 2px solid #F0145A;
+        }
+        &.header-about_button-red{
+            color: #F0145A;
+            border-bottom: 2px solid #F0145A;
+        } 
+
+        &:hover {
+            color: #F0145A;
+            border-bottom: 2px solid #F0145A;
+        }
+    }
+}
+
+.header-about__nav__hidden-logo {
+    padding-top: 30px;
+    padding-bottom: 14px;
+}
+
+.header-about__mobile-nav {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0;
+
+
+
+    .header-about__mobile-nav__button {
+        border: 0;
+        outline: none;
+        background: transparent;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.2s ease;
+
+        &:hover {
+            background: #b8b8b9;
+            border: 7px 10px;
+
+        }
+    }
+
+
+}
+
+/*=============================================================== SECTION LEGAL===========================================================*/
+
+.section-legal {
+    padding: 60px 14.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-legal__left-box {
+    padding-right: 30px;
+    max-width: 920px;
+}
+
+.section-legal__right-box {
+
+    padding-left: 30px;
+    border-left: 4px solid #E6E6F0;
+}
+
+.section-legal__left-box__tittle {
+    font-family: "Montserrat-Bold";
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 28px;
+
+}
+
+.section-legal__left-box__text__top {
+    font-size: 19px;
+    line-height: 30px;
+    padding-bottom: 24px;
+
+}
+
+.section-legal__left-box__text__bottom {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.section-legal__right-box__img {
+    display: block;
+
+}
+
+.section-legal__right-box__img__padding-top {
+    display: block;
+    padding-top: 40px;
+}
+
+.section-legal__right-box__text {
+    line-height: 20px;
+    color: #323264;
+    width: 354px;
+
+}
+
+/*===============================================================Section Our team ===========================================================*/
+.section-ourTeam {
+    padding-bottom: 60px;
+}
+
+.section-ourTeam__bcg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/about_img/team_bcg.png');
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 40vh;
+
+    .section-ourTeam__tittle {
+        font-family: "Montserrat-Bold";
+        font-size: 96px;
+        line-height: 117px;
+        letter-spacing: 63px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.8;
+        text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+    }
+
+}
+
+/*===============================================================Section QUALITY===========================================================*/
+
+
+.section-quality {
+    display: flex;
+    justify-content: center;
+    padding: 0 14.5% 60px;
+}
+
+.section-quality__left-box__text {
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.section-quality__left-box__text-padding {
+
+    padding-top: 24px;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+}
+
+
+
+.section-quality__right-box__tittle {
+    padding-left: 60px;
+    font-family: "Montserrat-Bold";
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: 362px;
+
+}
+
+/*=============================================================== SECTION achievements ===========================================================*/
+
+.section-achievements {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F5F5FA;
+    padding: 30px 8.2%;
+}
+
+.section-achievements__top__tittle {
+    font-family: "Montserrat-Bold";
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #323264;
+    padding-bottom: 30px;
+  
+}
+
+.section-achievements__bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    .section-achievements__bottom__card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 110px;
+        width: 19.2%;
+        background: #FFFFFF;
+        border-radius: 12px;
+
+    img{
+    max-width: 100%;
+        display: block;
+    }
+    }
+    
+}
+
+
+    .scroll-achievements{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+       background: #F5F5FA;;
+    
+        .scroll-achievements__dots{
+            width: 16px;
+            height: 16px;
+            background: rgba(36, 163, 255, 0.5);
+            margin: 0 7.5px;
+            border-radius: 50%;
+    
+            &:active {
+                background: rgba(36, 163, 255, 1);
+            }
+        }
+    }
+
+    .scroll-achievements__dots__hidden{
+        width: 16px;
+        height: 16px;
+        background: rgba(36, 163, 255, 0.5);
+        margin: 0 7.5px;
+        border-radius: 50%;
+
+        &:active {
+            background: rgba(36, 163, 255, 1);
+        }
+    }
+/*===================================================FOOTER section======================================================================*/
+footer {
+    background: #F5F5FA;
+    padding: 0 8.2%;
+}
+
+.mainPage-footer {
+
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid #E6E6F0;
+    
+}
+
+.mainPage-footer__left-box__top-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+   
+}
+
+.mainPage-footer__left-box__top-wrapper__text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #323264;
+}
+
+
+
+
+.mainPage-footer__left-box__top-wrapper__dot {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: #B3B3BA;
+}
+
+.mainPage-footer__left-box__top-wrapper__link {
+    text-decoration: none;
+    font-family: 'Montserrat-Bold';
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24A3FF;
+    transition: 0.4s ease;
+
+    &:hover {
+        color: #F0145A;
+    }
+}
+
+.mainPage-footer__left-box__bottom-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    background: #F5F5FA;
+    width: 100%;
+    padding: 20px 8.2% 30px;
+}
+
+.mainPage-footer__left-box__bottom-wrapper__link path {
+    transition: 0.4s ease;
+
+    &:hover {
+        fill: #F0145A;
+    }
+}
+
+.mainPage-footer__left-box__bottom-wrapper__dot {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: #B3B3BA;
+}
+
+.mainPage-footer__left-box__bottom-wrapper__phone {
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #46466E;
+}
+
+.mainPage-footer__left-box__bottom-wrapper__mail {
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #24A3FF;
+    transition: 0.4s ease;
+    &:hover {
+        color: #F0145A;
+    }
+
+}
+.mainPage-footer__right-box__tittle{
+    
+font-size: 16px;
+line-height: 20px;
+color: #B3B3BA;
+
+}
+.mainPage-footer__right-box__mobile{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    background: #F5F5FA;
+
+    
+    .mainPage-footer__right-box__tittle__mobile{
+        font-size: 16px;
+        line-height: 20px;
+        color: #B3B3BA;
+    }
+
+
+}
+    
+
+/*===============================================================desktop SD  ABOUT_PAGE ===========================================================*/
+
+@media screen and (max-width:1440px) {
+    .header-about__wrapper {
+
+        padding: 43px 4.2% 0;
+    }
+
+    .section-legal {
+        padding: 60px 12.5%;
+
+    }
+
+    .section-quality {
+        padding: 0 12.5% 60px;
+    }
+}
+
+
+/*===============================================================Tablet HD  ABOUT-PAGE ===========================================================*/
+@media screen and (max-width:1240px) {
+    .section-legal {
+        padding: 60px 4.2%;
+
+    }
+
+    .section-quality {
+        padding: 0 4.2% 60px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+
+    
+    .section-ourTeam__bcg {
+        height: 30vh;
+        
+
+        .section-ourTeam__tittle {
+            font-size: 86px;
+            line-height: 105px;
+        }
+
+    }
+}
+
+
+/*===============================================================Tablet SD ABOUT-PAGE ===========================================================*/
+
+@media screen and (min-width:941px) {
+    .header-about__nav__hidden-logo {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width:940px) {
+    .header-about__wrapper__logo {
+        display: none;
+    }
+
+
+    .header-about__nav__bottom {
+        justify-content: flex-start;
+    }
+
+    .section-legal {
+        flex-direction: column;
+    }
+
+    .section-legal__right-box__text {
+        width: 100%;
+
+    }
+
+    .section-legal__left-box {
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .section-legal__right-box {
+        margin-top: 30px;
+
+    }
+
+    .section-ourTeam__bcg {
+        height: 40vh;
+
+        .section-ourTeam__tittle {
+            font-size: 86px;
+            line-height: 105px;
+        }
+    }
+
+    .section-quality {
+        flex-direction: column;
+
+    }
+
+    .section-quality__right-box__tittle {
+        padding-left: 0;
+        padding-top: 30px;
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:876px) {
+
+    .section-ourTeam__bcg {
+        height: 30vh;
+
+        .section-ourTeam__tittle {
+            font-size: 46px;
+            line-height: 56px;
+        }
+    }
+}
+
+
+/*===============================================================Mobile ABOUT-PAGE ===========================================================*/
+@media screen and (min-width:651px) {
+    .header-about__mobile-nav {
+
+        display: none;
+    }
+    .scroll-achievements__dots__hidden{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .header-about__wrapper {
+        padding: 0;
+        display: block;
+
+    }
+
+    .header-about__nav__top {
+        background: rgba(226, 226, 230, 0.4);
+    }
+
+    .header-about__nav__bottom {
+        display: none;
+    }
+
+    .header-about__nav__hidden-logo {
+        display: none;
+    }
+
+    .header-about__nav__top {
+        padding: 10px 15px;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .header-about__nav__top__dot {
+        display: none;
+    }
+
+    .header-about__nav__top__text {
+        display: none;
+    }
+
+    .header-about__nav__top__log {
+        display: none;
+    }
+
+    .header-about__nav__top__tel {
+        display: block;
+    }
+
+    .section-legal {
+        padding: 30px 15px;
+
+    }
+
+    .section-legal__left-box__tittle {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .section-ourTeam {
+        padding-bottom: 30px;
+    }
+
+    .section-ourTeam__bcg {
+        height: 115px;
+
+        .section-ourTeam__tittle {
+            font-size: 36px;
+            line-height: 44px;
+            letter-spacing: 13px;
+        }
+    }
+
+    .section-quality {
+        padding: 0 30px 60px;
+    }
+
+    .section-quality__right-box__tittle {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .section-achievements__bottom__card{
+        width: 255px !important;
+       height: 90px !important;
+        
+        &.hidden_achievment{
+            display: none;
+        }
+
+    
+    }
+    
+
+}
